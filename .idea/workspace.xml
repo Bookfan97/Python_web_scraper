@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b15b87-f9b9-4261-9aa3-f72e20467c24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper/items.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper/items.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper/items.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper/quotes.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper/scraper/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper/scraper/quotes.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper/scraper/spiders/example_spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper/scraper/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/scraper/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper/scraper/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/scraper/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper/scraper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/scraper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper/scraper/spiders/example_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/scraper/spiders/example_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +132,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

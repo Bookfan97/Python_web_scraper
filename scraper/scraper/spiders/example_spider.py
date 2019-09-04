@@ -2,7 +2,7 @@ import scrapy
 from scrapy.spiders import Spider
 from ..items import ScraperItem
 
-
+# scrapy crawl example_spider
 class BrickSetSpider(Spider):
     name = "example_spider"
     page_number = 2
@@ -25,7 +25,7 @@ class BrickSetSpider(Spider):
 
             yield items
        # next_page = response.css('li.next a::attr(href)').get()
-        next_page = 'http://quotes.toscrape.com/page/' + str(BrickSetSpider.page_number + '/')
-        if BrickSetSpider.page_number <= BrickSetSpider.max_page_count:
+        next_page = 'http://quotes.toscrape.com/page/' + str(BrickSetSpider.page_number) + '/'
+        if BrickSetSpider.page_number < BrickSetSpider.max_page_count:
             BrickSetSpider.page_number += 1
             yield response.follow(next_page, callback=self.parse)
