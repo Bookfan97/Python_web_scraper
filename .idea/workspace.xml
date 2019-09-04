@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b15b87-f9b9-4261-9aa3-f72e20467c24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazonbooks/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/spiders/amazon_books.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazonbooks/amazonbooks/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amazonbooks/amazonbooks/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/amazonbooks/amazonbooks/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
