@@ -1,0 +1,4 @@
+scrapy startproject [name]
+cd .\[name]
+scrapy genspider [spidername] [website]
+scrapy crawl [spidername]
