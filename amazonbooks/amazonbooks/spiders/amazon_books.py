@@ -5,9 +5,11 @@ from ..items import AmazonbooksItem
 
 class AmazonBooksSpider(scrapy.Spider):
     name = 'amazon_books'
+    page_number = 2
+    max_page_count = 75
     allowed_domains = ['amazon.com']
     start_urls = [
-        'https://www.amazon.com/s?k=harry+potter&i=stripbooks&ref=nb_sb_noss_2'
+        'https://www.amazon.com/s?k=harry+potter&i=stripbooks'
     ]
 
     def parse(self, response):
@@ -21,3 +23,7 @@ class AmazonBooksSpider(scrapy.Spider):
         items['book_price'] = book_price
         items['book_cover'] = book_cover
         yield items
+        next_page = 'https://www.amazon.com/s?k=harry+potter&i=stripbooks&page=' + str(AmazonBooksSpider.page_number)
+        if AmazonBooksSpider.page_number < AmazonBooksSpider.max_page_count:
+            AmazonBooksSpider.page_number += 1
+            yield response.follow(next_page, callback=self.parse)
